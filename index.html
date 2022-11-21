@@ -14,6 +14,10 @@
 <body>
    <div id="app">
       <div class="container text-center">
+         <div class="my-3 input-group">
+            <input class="form-control" type="text" v-model="nome" placeholder="Inserisci il tuo nome">
+            <input class="form-control" type="text" v-model="cognome" placeholder="Inserisci il tuo cognome">
+         </div>
          <h1>Ciao, sono <span>{{nome}} {{cognome}}</span></h1>
          <img :src='src' @click="imgChange">
          <p class="text-muted">Clicca sull'immagine per cambiarla!</p>

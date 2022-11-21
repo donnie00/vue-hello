@@ -3,8 +3,8 @@ const {createApp} = Vue;
 createApp({
 	data() {
 		return {
-			nome: 'Donato',
-			cognome: 'Ippolito',
+			nome: '',
+			cognome: '',
 			src: 'https://picsum.photos/400/200',
 			random: 1,
 		};
